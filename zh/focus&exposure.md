@@ -17,6 +17,7 @@ No Fusion 的默认使用逻辑和原相机相同，点击取景框后会同时�
 <p align="center">
   <img src="/src/square.jpg" alt="原相机曝光补偿调整" style="max-width: 500px; min-width: 150px; width: 100%;">
 </p>
+
 ## 锁定
 相机在在工作时会不断进行对焦和测光操作，如果你想要将焦点固定到某个位置，或者让画面保持某个亮度不变，就需锁定操作。
 
