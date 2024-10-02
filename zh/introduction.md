@@ -2,14 +2,21 @@
 outline: deep
 ---
 
-# No Fusion 核心功能简介
+# No Fusion 核心功能介绍
 
 ## 去除过度锐化
 <a id="remove-sharpening"></a>
 
 iPhone的锐化问题一直是难以解决的痛点，由于系统算法的过度处理，导致画面观感不自然。
 
+
+
+
 No Fusion 创新性的使用了 **Apple ProRAW** 管线以及自主设计的校准和压缩算法。能够得到一张更自然，柔和的好照片。这种格式在 No Fusion 中被命名为 **HEIF**<span style="color:#FF0000; font-weight:bold">+</span>。
+
+<p align="center">
+  <img src="/src/compare.jpg" alt="原相机曝光补偿调整" style="max-width: 500px; min-width: 150px; width: 100%;">
+</p>
 
 ## Live Photo
 <a id="live-photo"></a>
@@ -27,4 +34,7 @@ No Fusion 以更为自然的 **HEIF**<span style="color:#FF0000; font-weight:bol
 <a id="ui"></a>
 
 许多专业相机的UI都是臃肿的，并且毫无美感，毫无设计，有很高的使用门槛。而像iPhone默认相机一样针对大众手机摄影开发的UI又有些过于简单。缺失了一些专业和常用的功能。为了解决这些问题，No Fusion 对相机和手机摄影进行了重新思考，重新设计。最终设计出一套简单，高效，符合直觉的全新UI界面。
+<p align="center">
+  <img src="/src/ui.jpg" alt="原相机曝光补偿调整" style="max-width: 600px; min-width: 150px; width: 100%;">
+</p>
 
