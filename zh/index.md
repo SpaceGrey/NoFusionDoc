@@ -6,15 +6,15 @@ hero:
   name: "No Fusion 使用说明"
   tagline: "No Fusion 是一款简洁高效，并且功能强大的 iPhone 专业相机 App。"
   image:
-    src: /src/icon.png
+    src: /icon.png
     alt: "No Fusion"
   actions:
     - theme: brand
       text: 查看教程
-      link: /markdown-examples
+      link: /zh/focus&exposure
     - theme: alt
       text: 常见问题
-      link: /api-examples
+      link: /zh/faq
 
 features:
   - title: 去除锐化
@@ -31,4 +31,3 @@ features:
     link: /introduction#color
 
 ---
-
