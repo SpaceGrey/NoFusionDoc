@@ -28,40 +28,40 @@ export default defineConfig({
     // ],
     
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   },
   locales: {
-    root: {
-      label: 'English',
-      lang: 'en',
-      title: "No Fusion Document",
-      description: "The document of No Fusion camera app.",
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/en/index' },
-          { text: 'Features', link: '/introduction' },
-          { text: 'Tutorial', link: '/tutorial' }
-        ],
-        sidebar: [
-          {
-            text: 'Examples',
-            items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
-            ]
-          },
-          {
-            text: 'Tutorial',
-            items: [
-              { text: 'Quick Start', link: '/guide' },
-              { text: 'In-depth', link: '/deep' }
-            ]
-          }
-        ]
-      }
-    },
+    // root: {
+    //   label: 'English',
+    //   lang: 'en',
+    //   title: "No Fusion Document",
+    //   description: "The document of No Fusion camera app.",
+    //   themeConfig: {
+    //     nav: [
+    //       { text: 'Home', link: '/en/index' },
+    //       { text: 'Features', link: '/introduction' },
+    //       { text: 'Tutorial', link: '/tutorial' }
+    //     ],
+    //     sidebar: [
+    //       {
+    //         text: 'Examples',
+    //         items: [
+    //           { text: 'Markdown Examples', link: '/markdown-examples' },
+    //           { text: 'Runtime API Examples', link: '/api-examples' }
+    //         ]
+    //       },
+    //       {
+    //         text: 'Tutorial',
+    //         items: [
+    //           { text: 'Quick Start', link: '/guide' },
+    //           { text: 'In-depth', link: '/deep' }
+    //         ]
+    //       }
+    //     ]
+    //   }
+    // },
     zh: {
       label: '简体中文',
       lang: 'zh-CN',
