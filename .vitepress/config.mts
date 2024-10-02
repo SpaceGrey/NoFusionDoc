@@ -7,8 +7,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '核心功能介绍', link: '/introduction' },
+      { text: '教程', link: '/tutorial' }
     ],
 
     sidebar: [
@@ -17,6 +18,13 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '教程',
+        items: [
+          { text: '快速开始', link: '/guide' },
+          { text: '深入', link: '/deep' }
         ]
       }
     ],
