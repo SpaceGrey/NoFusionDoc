@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev NoFusionDoc",
+    "docs:build": "vitepress build NoFusionDoc",
+    "docs:preview": "vitepress preview NoFusionDoc"
+  }
+}
