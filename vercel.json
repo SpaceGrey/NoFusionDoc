@@ -9,7 +9,31 @@
           "value": "(?<lang>^zh.*)"
         }
       ],
-      "destination": "/zh",
+      "destination": "/zh/",
+      "statusCode": 307
+    },
+    {
+      "source": "/lut",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "(?<lang>^zh.*)"
+        }
+      ],
+      "destination": "/zh/lut",
+      "statusCode": 307
+    },
+    {
+      "source": "/faq",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "^(?!zh).*"
+        }
+      ],
+      "destination": "/en/lut",
       "statusCode": 307
     },
     {
@@ -18,51 +42,15 @@
         {
           "type": "header",
           "key": "accept-language",
-          "value": "^(?!zh).*"
+          "value": "(?<lang>^en.*)"
         }
       ],
-      "destination": "/en",
+      "destination": "/en/",
       "statusCode": 307
     },
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept-language",
-          "value": "(?<lang>^zh.*)"
-        }
-      ],
-      "missing": [
-        {
-          "type": "host",
-          "value": "(.*)/zh/.*"
-        }
-      ],
-      "destination": "/zh/:path*",
-      "statusCode": 307
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept-language",
-          "value": "^(?!zh).*"
-        }
-      ],
-      "missing": [
-        {
-          "type": "host",
-          "value": "(.*)/en/.*"
-        }
-      ],
-      "destination": "/en/:path*",
-      "statusCode": 307
-    },
-    {
-      "source": "/:path*",
-      "destination": "/en/:path*",
+      "source": "/",
+      "destination": "/en/",
       "statusCode": 307
     }
   ]
