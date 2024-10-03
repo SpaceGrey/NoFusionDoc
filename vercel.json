@@ -25,7 +25,7 @@
       "statusCode": 307
     },
     {
-      "source": "/faq",
+      "source": "/lut",
       "has": [
         {
           "type": "header",
