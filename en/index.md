@@ -3,32 +3,41 @@
 layout: home
 
 hero:
-  name: "No Fusion 使用说明"
-  tagline: "No Fusion 是一款简洁高效，并且功能强大的 iPhone 专业相机 App。"
+  name: "No Fusion User Guide"
+  tagline: "No Fusion is a simple, efficient, and powerful professional camera App for iPhone."
   image:
     src: /icon.png
     alt: "No Fusion"
   actions:
     - theme: brand
-      text: 查看教程
-      link: /markdown-examples
+      text: View Tutorial
+      link: /en/focus&exposure
     - theme: alt
-      text: 常见问题
-      link: /api-examples
+      text: FAQ
+      link: /en/faq
+    - theme: alt
+      text: Download
+      link: https://apps.apple.com/sg/app/no-fusion-a-simple-pro-cam/id6444706244
 
 features:
-  - title: 去除锐化
-    details: 通过独创的RAW管线，去除 iPhone 的过度锐化效果。
-    link: /zh/introduction#remove-sharpening
-  - title: Live Photo
-    details: 支持在任何格式和任何分辨率下拍摄Live Photo，不错过任何精彩瞬间。
-    link: /zh/introduction#live-photo
-  - title: 色彩
-    details: 强大风格化系统，内置多款胶片配方。支持参数调整，Lut导入。
-    link: /zh/introduction#color
+  - icon: 
+      src: /photol.svg
+    title: Remove Sharpening
+    details: Remove the over-sharpening effect of the iPhone with a unique RAW pipeline.
+    link: /en/introduction#remove-sharpening
+  - icon:
+      src: /livephoto.svg
+    title: Live Photo
+    details: Capture Live Photos in any format and resolution, ensuring you never miss a moment.
+    link: /en/introduction#live-photo
+  - icon:
+      src: /color.svg
+    title: Color
+    details: A powerful styling system with multiple built-in film presets. Supports parameter adjustment and LUT import.
+    link: /en/introduction#color
   - title: UI
-    details: 简洁易用，并且强大的UI设计，功能一触即达。
-    link: /zh/introduction#color
-
+    icon:
+      src: /ui.svg
+    details: A simple, easy-to-use, and powerful UI design with quick access to all functions.
+    link: /en/introduction#color
 ---
-

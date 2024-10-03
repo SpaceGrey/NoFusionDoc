@@ -2,71 +2,46 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: '主页', link: '/' },
-    //   { text: '核心功能介绍', link: '/introduction' },
-    //   { text: '教程', link: '/tutorial' }
-    // ],
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   },
-    //   {
-    //     text: '教程',
-    //     items: [
-    //       { text: '快速开始', link: '/guide' },
-    //       { text: '深入', link: '/deep' }
-    //     ]
-    //   }
-    // ],
-    
-
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
-  },
   locales: {
-    // root: {
-    //   label: 'English',
-    //   lang: 'en',
-    //   title: "No Fusion Document",
-    //   description: "The document of No Fusion camera app.",
-    //   themeConfig: {
-    //     nav: [
-    //       { text: 'Home', link: '/en/index' },
-    //       { text: 'Features', link: '/introduction' },
-    //       { text: 'Tutorial', link: '/tutorial' }
-    //     ],
-    //     sidebar: [
-    //       {
-    //         text: 'Examples',
-    //         items: [
-    //           { text: 'Markdown Examples', link: '/markdown-examples' },
-    //           { text: 'Runtime API Examples', link: '/api-examples' }
-    //         ]
-    //       },
-    //       {
-    //         text: 'Tutorial',
-    //         items: [
-    //           { text: 'Quick Start', link: '/guide' },
-    //           { text: 'In-depth', link: '/deep' }
-    //         ]
-    //       }
-    //     ]
-    //   }
-    // },
+    en:{
+      label: 'English',
+      lang: 'en',
+      title: "No Fusion Camera",
+      description: "Introduction, tutorials, and help for No Fusion Camera App.",
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Tutorials', link: '/focus&exposure' },
+          { text: 'FAQ', link: '/faq' }
+        ],
+        sidebar: [
+          {
+            text:"Introduction",
+            link: '/introduction'
+          },
+          {
+            text: 'Tutorials',
+            items: [
+              { text: 'Focus & Exposure', link: '/en/focus&exposure' },
+              { text: 'Exposure Compensation', link: '/en/exposure' },
+              { text: 'Manual Mode', link: '/en/manual' },
+              { text: 'Lens Switching', link: '/en/lens' },
+              { text: 'LUT Import', link: '/en/lut' },
+            ]
+          },
+          {
+            text:'FAQ',
+            link: '/en/faq'
+          }
+        ]
+      }
+    },
     zh: {
       label: '简体中文',
       lang: 'zh-CN',
       title: "No Fusion 相机文档",
-      description: "No Fusion 相机App的简介、教程、以及帮助。",
+      description: "No Fusion 相机的简介、教程、以及帮助。",
       themeConfig: {
         nav: [
           { text: '主页', link: '/zh/' },

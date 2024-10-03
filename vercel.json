@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/",
+      "source": "/:path*",
       "has": [
         {
           "type": "header",
@@ -9,11 +9,17 @@
           "value": "(?<lang>^zh.*)"
         }
       ],
-      "destination": "/zh/",
+      "missing": [
+        {
+          "type": "host",
+          "value": "(.*)/zh/.*"
+        }
+      ],
+      "destination": "/zh/:path*",
       "statusCode": 307
     },
     {
-      "source": "/",
+      "source": "/:path*",
       "has": [
         {
           "type": "header",
@@ -21,12 +27,18 @@
           "value": "^(?!zh).*"
         }
       ],
-      "destination": "/en/",
+      "missing": [
+        {
+          "type": "host",
+          "value": "(.*)/en/.*"
+        }
+      ],
+      "destination": "/en/:path*",
       "statusCode": 307
     },
     {
-      "source": "/",
-      "destination": "/en/",
+      "source": "/:path*",
+      "destination": "/en/:path*",
       "statusCode": 307
     }
   ]
