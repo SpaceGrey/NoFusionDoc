@@ -87,6 +87,7 @@ export default defineConfig({
               { text: '曝光补偿', link: '/zh/exposure' },
               { text: '手动模式', link: '/zh/manual' },
               { text: '镜头切换', link: '/zh/lens' },
+              { text: 'LUT 导入', link: '/zh/lut' },
             ]
           },
           {

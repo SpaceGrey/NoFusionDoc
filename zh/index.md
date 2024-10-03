@@ -17,17 +17,25 @@ hero:
       link: /zh/faq
 
 features:
-  - title: 去除锐化
+  - icon: 
+      src: /photol.svg
+    title: 去除锐化
     details: 通过独创的RAW管线，去除 iPhone 的过度锐化效果。
-    link: /introduction#remove-sharpening
-  - title: Live Photo
+    link: /zh/introduction#remove-sharpening
+  - icon:
+      src: /livephoto.svg
+    title: Live Photo
     details: 支持在任何格式和任何分辨率下拍摄Live Photo，不错过任何精彩瞬间。
-    link: /introduction#live-photo
-  - title: 色彩
+    link: /zh/introduction#live-photo
+  - icon:
+      src: /color.svg
+    title: 色彩
     details: 强大风格化系统，内置多款胶片配方。支持参数调整，Lut导入。
-    link: /introduction#color
+    link: /zh/introduction#color
   - title: UI
+    icon:
+      src: /ui.svg
     details: 简洁易用，并且强大的UI设计，功能一触即达。
-    link: /introduction#color
+    link: /zh/introduction#color
 
 ---

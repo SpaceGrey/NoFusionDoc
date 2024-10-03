@@ -18,7 +18,7 @@
         {
           "type": "header",
           "key": "accept-language",
-          "value": "(?<lang>^en.*)"
+          "value": "^(?!zh).*"
         }
       ],
       "destination": "/en/",
