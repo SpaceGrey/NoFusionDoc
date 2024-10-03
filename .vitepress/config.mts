@@ -1,7 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
+  sitemap: {
+    hostname: 'https://nofusion.app'
+  },
   locales: {
     en:{
       label: 'English',
