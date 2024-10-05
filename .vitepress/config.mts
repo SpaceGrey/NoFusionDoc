@@ -14,15 +14,15 @@ export default defineConfig({
       description: "Introduction, tutorials, and help for No Fusion Camera App.",
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Tutorials', link: '/focus&exposure' },
-          { text: 'FAQ', link: '/faq' }
+          { text: 'Home', link: '/en/' },
+          { text: 'Introduction', link: '/en/introduction' },
+          { text: 'Tutorials', link: '/en/focus&exposure' },
+          { text: 'FAQ', link: '/en/faq' }
         ],
         sidebar: [
           {
             text:"Introduction",
-            link: '/introduction'
+            link: '/en/introduction'
           },
           {
             text: 'Tutorials',
