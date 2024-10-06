@@ -30,6 +30,7 @@ export default defineConfig({
               { text: 'Focus & Exposure', link: '/en/focus&exposure' },
               { text: 'Exposure Compensation', link: '/en/exposure' },
               { text: 'Manual Mode', link: '/en/manual' },
+              { text: 'White Balance', link: '/en/wb' },
               { text: 'Lens Switching', link: '/en/lens' },
               { text: 'LUT Import', link: '/en/lut' },
             ]
@@ -65,6 +66,7 @@ export default defineConfig({
               { text: '对焦和测光', link: '/zh/focus&exposure' },
               { text: '曝光补偿', link: '/zh/exposure' },
               { text: '手动模式', link: '/zh/manual' },
+              { text: '白平衡', link: '/zh/wb' },
               { text: '镜头切换', link: '/zh/lens' },
               { text: 'LUT 导入', link: '/zh/lut' },
             ]
