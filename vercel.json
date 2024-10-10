@@ -37,6 +37,30 @@
       "statusCode": 307
     },
     {
+      "source": "/faq",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "(?<lang>^zh.*)"
+        }
+      ],
+      "destination": "/zh/faq",
+      "statusCode": 307
+    },
+    {
+      "source": "/faq",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "^(?!zh).*"
+        }
+      ],
+      "destination": "/en/faq",
+      "statusCode": 307
+    },
+    {
       "source": "/",
       "has": [
         {

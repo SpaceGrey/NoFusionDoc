@@ -1,8 +1,9 @@
 # 常见问题
 ## 1. 为什么预览画面和实际得到画面有时色彩不一样
 No Fusion的默认格式为 **HEIF**<span style="color:#FF0000; font-weight:bold">+</span>，是通过 ProRAW 管线以及 No Fusion 自主设计的校准和压缩算法得到。而预览得到的画面为默认的管线处理，在一些情况下二者的色彩会存在差异。如果想得到和取景框更为相近的颜色，可以使用**HEIF**格式，但会失去去锐化的功能。
+
 ## 2. 标准版 iPhone 能使用么
-能，No Fusion 是高度使用RAW管线的相机。由于标准版iPhone，以及iPhone 11 Pro及以前的设备不支持 ProRAW 拍摄，只能通过普通拜耳RAW文件进行压缩。但相比ProRAW，普通RAW在画面宽容度，噪点控制上都不占优势，并且和预览区别较大。所以使用 **HEIF**<span style="color:#FF0000; font-weight:bold">+</span> 格式时需要注意。
+能，No Fusion 是高度使用RAW管线的相机。由于标准版iPhone，以及iPhone 12 Pro以前的设备不支持 ProRAW 拍摄，只能通过普通拜耳RAW文件进行压缩。但相比ProRAW，普通RAW在画面宽容度，噪点控制上都不占优势，并且和预览区别较大。所以使用 **HEIF**<span style="color:#FF0000; font-weight:bold">+</span> 格式时需要注意。
 
 但是，使用**HEIF**格式即可规避以上问题，并且同样能够使用No Fusion的所有功能。
 ## 3. 为什么原相机长焦镜头可以对上焦而 No Fusion 不行
