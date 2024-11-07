@@ -61,6 +61,30 @@
       "statusCode": 307
     },
     {
+      "source": "/myclassic",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "^(?!zh).*"
+        }
+      ],
+      "destination": "/en/myclassic",
+      "statusCode": 307
+    },
+    {
+      "source": "/myclassic",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "(?<lang>^zh.*)"
+        }
+      ],
+      "destination": "/zh/myclassic",
+      "statusCode": 307
+    },
+    {
       "source": "/",
       "has": [
         {
