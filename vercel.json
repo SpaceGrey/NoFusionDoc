@@ -85,6 +85,30 @@
       "statusCode": 307
     },
     {
+      "source": "/whySystem",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "^(?!zh).*"
+        }
+      ],
+      "destination": "/en/whySystem",
+      "statusCode": 307
+    },
+    {
+      "source": "/whySystem",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "(?<lang>^zh.*)"
+        }
+      ],
+      "destination": "/zh/whySystem",
+      "statusCode": 307
+    },
+    {
       "source": "/",
       "has": [
         {
