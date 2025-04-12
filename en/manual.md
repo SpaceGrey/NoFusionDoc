@@ -27,5 +27,3 @@ You can also press and drag a parameter to quickly adjust it.
   <source src="/src/original.mp4" type="video/mp4">
 </video>
 </p>
-
-Note that due to system limitations, shutter speed and ISO are linked on the iPhone. They can only both be set to automatic or both to manual.

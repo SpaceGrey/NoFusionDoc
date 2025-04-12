@@ -24,6 +24,3 @@
   <source src="/src/original.mp4" type="video/mp4" >
 </video>
 </p>
-
-
-注意，由于系统限制，iPhone上的快门和ISO为联动状态，只能同时设为自动或手动。
