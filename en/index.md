@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "No Fusion User Guide"
-  tagline: "No Fusion is a simple, efficient, and powerful professional camera App for iPhone."
+  tagline: "No Fusion is a elegant, efficient, and powerful professional camera App for iPhone."
   image:
     src: /icon.png
     alt: "No Fusion"

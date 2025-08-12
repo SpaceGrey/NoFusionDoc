@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "No Fusion 使用说明"
-  tagline: "No Fusion 是一款简洁高效，并且功能强大的 iPhone 专业相机 App。"
+  tagline: "No Fusion 是一款优雅高效，并且功能强大的 iPhone 专业相机 App。"
   image:
     src: /icon.png
     alt: "No Fusion"
