@@ -27,3 +27,10 @@ Through the camera control button, or by adding No Fusion to the buttons below t
 4. Tap "Unlock" in the upper right corner of the screen to launch the main app.
 
 If you want to unlock and launch the main app by default every time you start, you can add "Unlock and Launch No Fusion" to the lock screen control widget, and use the Action Button or lock screen lens selection widget to directly unlock and open the app.
+
+## 7. Why doesn't the MAX toggle work?
+Enabling the MAX toggle allows you to capture photos up to 48MP, but the MAX toggle will not work in the following situations:
+
+- Hardware does not support 48MP lenses.
+- Non-ProRAW compatible iPhones when shooting HEIF+ or RAW.
+- In manual mode when multi-frame fusion is disabled.

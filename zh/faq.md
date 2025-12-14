@@ -26,3 +26,10 @@ No Fusion的默认格式为 **HEIF**<span style="color:#FF0000; font-weight:bold
 4. 点击屏幕右上角的“解锁”即可启动主App。
 
 如果您希望每次启动时都默认解锁并启动主App，可在锁屏控制组件中添加“解锁并启动 No Fusion”，使用Action Button或锁屏镜头选择组件直接解锁并打开App。
+
+## 7. 为什么MAX开关不生效
+开启MAX开关可拍摄高达48MP像素的照片，但在以下情况中，MAX开关不会生效。
+
+- 硬件不支持48MP的镜头。
+- 不支持ProRAW拍摄的iPhone在拍摄HEIF+或RAW时。
+- 在手动模式中，关闭多帧融合时。
