@@ -38,6 +38,6 @@ No Fusion 目前仅支持以上两种LUT的导入。
 
 ### 图片和`.cube`格式转换
 
-[免费LUT格式转换](https://www.color.io/free-online-lut-converter)
+[免费LUT格式转换](https://lut-convert-spacegrey1s-projects.vercel.app/)
 
 使用上面的网址可以将LUT图片和cube格式的文件相互转换，在导出成cube格式时，推荐大小选择32，这样体积占用更小，计算更高效。

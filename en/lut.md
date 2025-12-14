@@ -43,6 +43,6 @@ If your filter file format is `.xmp`, you will need to convert it to a supported
 
 ### Image and `.cube` Format Conversion
 
-[Free LUT Format Conversion](https://www.color.io/free-online-lut-converter)
+[Free LUT Format Conversion](https://lut-convert-spacegrey1s-projects.vercel.app/)
 
 You can use the website above to convert LUT images and `.cube` format files to one another. When exporting to `.cube` format, it is recommended to choose a size of 32, which optimizes file size and processing efficiency.
