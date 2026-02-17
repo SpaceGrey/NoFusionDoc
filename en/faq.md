@@ -34,3 +34,6 @@ Enabling the MAX toggle allows you to capture photos up to 48MP, but the MAX tog
 - Hardware does not support 48MP lenses.
 - Non-ProRAW compatible iPhones when shooting HEIF+ or RAW.
 - In manual mode when multi-frame fusion is disabled.
+
+## 8. Duplicate charges
+If you do not cancel your subscription before the end of the trial week, it will be charged automatically after the trial ends. Also, because lifetime premium membership and annual subscription are two separate products and cannot be converted to each other, after purchasing lifetime membership you still need to manually cancel the annual subscription. If you forgot to cancel, please refer to [here](https://support.apple.com/en-us/118223/) to request a refund.
